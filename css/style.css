@@ -5,40 +5,43 @@ background: #85929E;
 font-family: 'Raleway';
 }
 
+#page-wrapper {
+    position: relative;
+}
+
 #header {
     display: flex;
+    flex-direction: row;
 }
 
 .logo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    height: 100%;
+    float: left;
+    overflow: hidden;
 }
 
-#header-img {    
-    width: 120px;
+#header-img {
+    width: 100px;
     height: auto;
-    background-color: #85929E;
 }
 
-.logo p{
-    width: 300px;
-    font-weight: 400;
-    font-size: 30px;
+.logo p {
+    width: 70%;
+    display: inline;
+    padding: 10px 0;
+    
 }
 
 #nav-bar {
     float: right;
-    flex-direction: row;
-    padding-left: 60%;
 }
 
 #nav-bar li {
-    
+    display: inline-block;
+    list-style: none;
 }
 
-#nav-bar a {
-    
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
 }
