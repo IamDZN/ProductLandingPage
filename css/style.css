@@ -7,32 +7,40 @@ font-family: 'Raleway';
 
 #page-wrapper {
     position: relative;
+    /* width: 1800px; */
 }
 
 #header {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    right:0;
+    top:0;
+    left:0;
+    height: 80px;
+    border: dotted 2px #333 ;
+    box-sizing: border-box:
 }
 
 .logo {
-    float: left;
-    overflow: hidden;
+    display: flex;
+    width: 30%;
 }
 
 #header-img {
-    width: 100px;
-    height: auto;
+    height: 80px;
+    justify-content: space-between;
 }
 
 .logo p {
-    width: 70%;
-    display: inline;
-    padding: 10px 0;
-    
+    font-size: 30px;
+    padding-bottom: 30px;
 }
 
 #nav-bar {
-    float: right;
+    align-content: flex-end;
+    /* margin-left: auto; */
+    border: dotted 2px #555;
 }
 
 #nav-bar li {
